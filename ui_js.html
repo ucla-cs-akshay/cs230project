@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <style>
+            h1 {text-align: center;}
+         </style>
+
+        <title>API Deprication Notifier</title>
+        
+        <h1>Depricated API Notifier</h1>
+       
+        
+        <script type="text/javascript">
+
+        function buttonClick() {
+                    alert("Submitted!")
+                }
+            
+         </script>
+  
+     
+        <body>
+
+            <h3> Enter the below details to know about the depricated API's used in your library:</h3>
+            <p>Enter the Github URL for your Library:</p>
+            <input id="text1" placeholder="Enter Github URL">
+
+            <br>
+            <br>
+            <p>Click on the "Choose File" button to upload a file:</p>
+
+            <form action="/action_page.php">
+              <input type="file" id="myFile" name="filename">
+            </form>
+
+            <br>
+            <br>
+            <p>Enter current version of your library:</p>
+            <input id="text2" placeholder="Enter current version">
+            <br>
+            <br>
+            
+            <p>Enter version you want to check against:</p>
+            <input id="text3" placeholder="Enter new version">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <button onclick="buttonClick()">Submit</button>
+
+        </body>
+    </head>
+    
+</html>

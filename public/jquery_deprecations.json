@@ -1,0 +1,501 @@
+{
+  "deprecations": [
+    {
+      "name": "jQuery.boxModel",
+      "query": "jQuery.boxModel",
+      "added_in": "1.0",
+      "deprecated_in": "1.3",
+      "removed_in": "1.8"
+    },
+    {
+      "name": "jQuery.browser",
+      "query": "jQuery.browser",
+      "added_in": "1.0",
+      "deprecated_in": "1.3",
+      "removed_in": "1.9"
+    },
+    {
+      "name": "jQuery.browser.version",
+      "query": "jQuery.browser.version",
+      "added_in": "1.0",
+      "deprecated_in": "1.3",
+      "removed_in": "1.9"
+    },
+    {
+      "name": "deferred.isRejected()",
+      "query": "deferred.isRejected()",
+      "added_in": "1.5",
+      "deprecated_in": "1.7",
+      "removed_in": "1.8"
+    },
+    {
+      "name": "deferred.isResolved()",
+      "query": "deferred.isResolved()",
+      "added_in": "1.5",
+      "deprecated_in": "1.7",
+      "removed_in": "1.8"
+    },
+    {
+      "name": ".die()",
+      "query": ".die()",
+      "added_in": "1.4.1",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".die(eventType)",
+      "query": ".die(:[eventType:e])",
+      "added_in": "1.3",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".die(eventType, handler)",
+      "query": ".die(:[eventType:e],:[handler:e])",
+      "added_in": "1.3",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".die(events)",
+      "query": ".die(:[events:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": "jQuery.sub()",
+      "query": "jQuery.sub()",
+      "added_in": "1.5",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".live(events, handler)",
+      "query": ".live(:[events:e],:[handler:e])",
+      "added_in": "1.3",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".live(events, data, handler)",
+      "query": ".live(:[events:e],:[data:e],:[handler:e])",
+      "added_in": "1.4",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".live(events)",
+      "query": ".live(:[events:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "1.7",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".selector",
+      "query": ".selector",
+      "added_in": "1.3",
+      "deprecated_in": "1.7",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".andSelf()",
+      "query": ".andSelf()",
+      "added_in": "1.2",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": "deferred.pipe()",
+      "query": "deferred.pipe()",
+      "added_in": "1.6",
+      "deprecated_in": "1.8",
+      "removed_in": ""
+    },
+    {
+      "name": "deferred.pipe(doneFilter)",
+      "query": "deferred.pipe(:[doneFilter:e])",
+      "added_in": "1.6",
+      "deprecated_in": "1.8",
+      "removed_in": ""
+    },
+    {
+      "name": "deferred.pipe(doneFilter, failFilter)",
+      "query": "deferred.pipe(:[doneFilter:e],:[failFilter:e])",
+      "added_in": "1.6",
+      "deprecated_in": "1.8",
+      "removed_in": ""
+    },
+    {
+      "name": "deferred.pipe(doneFilter, failFilter, progressFilter)",
+      "query": "deferred.pipe(:[doneFilter:e],:[:failFilter:e],:[:progressFilter:e])",
+      "added_in": "1.7",
+      "deprecated_in": "1.8",
+      "removed_in": ""
+    },
+    {
+      "name": ".error(handler)",
+      "query": ".error(:[handler:e])",
+      "added_in": "1.0",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".error(eventData, handler)",
+      "query": ".error(:[eventData:e],:[handler:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".load(handler)",
+      "query": ".load(:[handler:e])",
+      "added_in": "1.0",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".load(eventData, handler)",
+      "query": ".load(:[eventData:e],:[handler:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".size()",
+      "query": ".size()",
+      "added_in": "1.0",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".toggle(handler, handler)",
+      "query": ".toggle(:[handler1:e],:[handler2:e])",
+      "added_in": "1.0",
+      "deprecated_in": "1.8",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".toggle(handler, handler, handler)",
+      "query": ".toggle(:[handler1:e],:[handler2:e],:[handler3:e])",
+      "added_in": "1.0",
+      "deprecated_in": "1.8",
+      "removed_in": "1.9"
+    },
+    {
+      "name": ".unload(handler)",
+      "query": ".unload(:[handler:e])",
+      "added_in": "1.0",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".unload(eventData, handler)",
+      "query": ".unload(:[eventData:e],:[handler:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "1.8",
+      "removed_in": "3.0"
+    },
+    {
+      "name": "jQuery.support",
+      "query": "jQuery.support",
+      "added_in": "1.3",
+      "deprecated_in": "1.9",
+      "removed_in": ""
+    },
+    {
+      "name": ".context",
+      "query": ".context",
+      "added_in": "1.3",
+      "deprecated_in": "1.10",
+      "removed_in": "3.0"
+    },
+    {
+      "name": ".bind(eventType, eventData, handler)",
+      "query": ".bind(:[eventType:e],:[eventData:e],:[handler:e])",
+      "added_in": "1.0",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".bind(eventType, handler)",
+      "query": ".bind(:[eventType:e],:[handler:e])",
+      "added_in": "1.0",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".bind(eventType, eventData, preventBubble)",
+      "query": ".bind(:[eventType:e],:[eventData:e],:[preventBubble:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".bind(events)",
+      "query": ".bind(:[events:e])",
+      "added_in": "1.4",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".delegate(selector, eventType, handler)",
+      "query": ".delegate(:[selector:e],:[eventType:e],:[handler:e])",
+      "added_in": "1.4.2",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".delegate(selector, eventType, eventData, handler)",
+      "query": ".delegate(:[selector:e],:[eventType:e],:[eventData:e],:[handler:e])",
+      "added_in": "1.4.2",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".delegate(selector, events)",
+      "query": ".delegate(:[selector:e],:[events:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.fx.interval",
+      "query": "jQuery.fx.interval",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.parseJSON(json)",
+      "query": "jQuery.parseJSON(:[json:e])",
+      "added_in": "1.4.1",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.unique(array)",
+      "query": "jQuery.unique(:[array:e])",
+      "added_in": "1.1.3",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".unbind(eventType)",
+      "query": ".unbind(:[eventType:e])",
+      "added_in": "1.0",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".unbind(eventType, handler)",
+      "query": ".unbind(:[eventType:e],:[handler:e])",
+      "added_in": "1.0",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".unbind(eventType, false)",
+      "query": ".unbind(:[eventType:e], false)",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".unbind(event)",
+      "query": ".unbind(:[event:e])",
+      "added_in": "1.0",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".unbind()",
+      "query": ".unbind()",
+      "added_in": "1.0",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".undelegate()",
+      "query": ".undelegate()",
+      "added_in": "1.4.2",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".undelegate(selector, eventType)",
+      "query": ".undelegate(:[selector:e],:[eventType:e])",
+      "added_in": "1.4.2",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".undelegate(selector, eventType, handler)",
+      "query": ".undelegate(:[selector:e],:[eventType:e],:[handler:e])",
+      "added_in": "1.4.2",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".undelegate(selector, events)",
+      "query": ".undelegate(:[selector:e],:[events:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": ".undelegate(namespace)",
+      "query": ".undelegate(:[namespace:e])",
+      "added_in": "1.6",
+      "deprecated_in": "3.0",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.holdReady(hold)",
+      "query": "jQuery.holdReady(:[hold:e])",
+      "added_in": "1.6",
+      "deprecated_in": "3.2",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.isArray(obj)",
+      "query": "jQuery.isArray(:[obj:e])",
+      "added_in": "1.3",
+      "deprecated_in": "3.2",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.isFunction(value)",
+      "query": "jQuery.isFunction(:[value:e])",
+      "added_in": "1.2",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.isNumeric(value)",
+      "query": "jQuery.isNumeric(:[value:e])",
+      "added_in": "1.7",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.isWindow(obj)",
+      "query": "jQuery.isWindow(:[obj:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.now()",
+      "query": "jQuery.now()",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.proxy(function, context)",
+      "query": "jQuery.proxy(:[function:e],:[context:e])",
+      "added_in": "1.4",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.proxy(context, name)",
+      "query": "jQuery.proxy(:[context:e],:[name:e])",
+      "added_in": "1.4",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.proxy(function, context, additionalArguments)",
+      "query": "jQuery.proxy(:[function:e],:[context:e],:[additionalArguments:e])",
+      "added_in": "1.6",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.proxy(context, name, additionalArguments)",
+      "query": "jQuery.proxy(:[context:e],:[name:e],:[additionalArguments:e])",
+      "added_in": "1.6",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery.type(obj)",
+      "query": "jQuery.type(:[obj:e])",
+      "added_in": "1.4.3",
+      "deprecated_in": "3.3",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":eq(index)\")",
+      "query": "jQuery(\":eq(index)\")",
+      "added_in": "1.0",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":eq(-index)\")",
+      "query": "jQuery(\":eq(-index)\")",
+      "added_in": "1.8",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":even\")",
+      "query": "jQuery(\":even\")",
+      "added_in": "1.0",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":first\")",
+      "query": "jQuery(\":first\")",
+      "added_in": "1.0",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":gt(index)\")",
+      "query": "jQuery(\":gt(index)\")",
+      "added_in": "1.0",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":gt(-index)\")",
+      "query": "jQuery(\":gt(-index)\")",
+      "added_in": "1.8",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":last\")",
+      "query": "jQuery(\":last\")",
+      "added_in": "1.0",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":lt(index)\")",
+      "query": "jQuery(\":lt(index)\")",
+      "added_in": "1.0",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":lt(-index)\")",
+      "query": "jQuery(\":lt(-index)\")",
+      "added_in": "1.8",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    },
+    {
+      "name": "jQuery(\":odd\")",
+      "query": "jQuery(\":odd\")",
+      "added_in": "1.0",
+      "deprecated_in": "3.4",
+      "removed_in": ""
+    }
+  ]
+}

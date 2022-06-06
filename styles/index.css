@@ -1,0 +1,7 @@
+.ui.input > input {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ui.label > a {
+  cursor: pointer;
+}

@@ -2,9 +2,9 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Main source code is in `pages/index.js` file.
+#### Main source code is in `pages/index.js` file.
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
